@@ -1,8 +1,11 @@
 import requests
 import json
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 # Replace this with your actual bot token
-BOT_TOKEN = "7854760299:AAFvuh6EdsSHlh1cFX_hGhPzEGAnSvKwxMs"
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 def send_message(chat_id, message):
     """
@@ -40,7 +43,8 @@ def get_chat_id():
         if "result" in data and len(data["result"]) > 0:
             chat_id = data["result"][-1]["message"]["chat"]["id"]
             print(f"✅ Your chat_id is: {chat_id}")
-            return chat_id
+            # instead of the last chat_id, please return array of chat_id that has message of /start 
+            return chat_id 
         else:
             print("⚠️ No messages found. Try sending a message to your bot first.")
             return None
@@ -48,5 +52,36 @@ def get_chat_id():
         print(f"❌ Failed to fetch updates. Status code: {response.status_code}")
         print(response.text)
         return None
+    
+def get_chat_ids_with_start():
+    global BOT_TOKEN
+    print(BOT_TOKEN)
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
+    response = requests.get(url)
+    if response.status_code != 200:
+        print(f"❌ Failed to fetch updates. Status code: {response.status_code}")
+        return []
 
-# get_chat_id()
+    data = response.json()
+    # print(json.dumps(data, indent=2))  # Optional: see full response
+
+    chat_ids = set()  # Use set to avoid duplicates
+
+    for item in data.get("result", []):
+        message = item.get("message")
+        if message:
+            text = message.get("text", "")
+            if text.strip() == "/start":
+                chat_id = message["chat"]["id"]
+                chat_ids.add(chat_id)
+
+    if chat_ids:
+        print("✅ Found chat IDs with /start command:")
+        for cid in chat_ids:
+            print(f" - {cid}")
+    else:
+        print("⚠️ No /start messages found.")
+
+    return list(chat_ids)
+
+# get_chat_ids_with_start()

@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 from datetime import datetime
-from bot import send_message
+from bot import send_message, get_chat_ids_with_start
 from dotenv import load_dotenv
 import os
 
@@ -131,8 +131,10 @@ with open("index.html", "w", encoding="utf-8") as f:
 with open("belum_absen.txt", "r", encoding="utf-8") as f:
     message = f.read()
 
-chat_id = 1829886352
-# Send via Telegram
-send_message(chat_id, message)
+chat_ids = get_chat_ids_with_start()
+
+for chat_id in chat_ids:
+    # Send via Telegram
+    send_message(chat_id, message)
 
 driver.quit()
