@@ -9,9 +9,14 @@ import json
 import time
 from datetime import datetime
 from bot import send_message
+from dotenv import load_dotenv
+import os
 
-# === CONFIG ===
-BEARER_TOKEN = "22c4bf90-45d7-11f0-ab45-0f32a702e16c"
+
+load_dotenv()  # Load .env file
+
+BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+# how to set bearer token on .env file ??
 CHROMEDRIVER_PATH = "driver/chromedriver"
 TARGET_URL = "https://siap.bkpsdm.karawangkab.go.id/gallery?view=full"
 
