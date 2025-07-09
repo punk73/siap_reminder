@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 from datetime import datetime
+from bot import send_message
 
 # === CONFIG ===
 BEARER_TOKEN = "22c4bf90-45d7-11f0-ab45-0f32a702e16c"
@@ -119,5 +120,14 @@ print(f"\n✅ Extracted {len(data)} items and saved to gallery_data.json")
 # (Optional) Save full HTML
 with open("index.html", "w", encoding="utf-8") as f:
     f.write(driver.page_source)
+
+# I want to send belum_absen as text/string, how do i do that ?
+# Read file contents as string
+with open("belum_absen.txt", "r", encoding="utf-8") as f:
+    message = f.read()
+
+chat_id = 1829886352
+# Send via Telegram
+send_message(chat_id, message)
 
 driver.quit()
