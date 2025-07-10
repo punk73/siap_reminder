@@ -49,7 +49,7 @@ try:
         EC.presence_of_element_located((By.CLASS_NAME, "v-responsive__content"))
     )
     print("✅ Thumbnail found. Clicking to reveal full content...")
-    time.sleep(0.5)
+    time.sleep(1)
     first_thumb.click()
 except Exception as e:
     print(f"❌ Error clicking thumbnail: {e}")
