@@ -29,7 +29,7 @@ TARGET_URL = "https://siap.bkpsdm.karawangkab.go.id/gallery?view=full"
 print(BEARER_TOKEN)
 # === SETUP SELENIUM ===
 options = Options()
-# options.add_argument("--headless")  # Enable if you want background mode
+options.add_argument("--headless")  # Enable if you want background mode
 options.add_argument("--disable-gpu")
 options.add_argument("--no-sandbox")
 
@@ -50,13 +50,14 @@ print("✅ Token injected.")
 # STEP 2: Go to ?view=full page
 driver.get(TARGET_URL)
 
+sleepTime = 3
 # STEP 3: Wait for the first .v-responsive__content and click it
 try:
     first_thumb = WebDriverWait(driver, 15).until(
         EC.presence_of_element_located((By.CLASS_NAME, "v-responsive__content"))
     )
     print("✅ Thumbnail found. Clicking to reveal full content...")
-    time.sleep(1)
+    time.sleep(sleepTime)
     first_thumb.click()
 except Exception as e:
     print(f"❌ Error clicking thumbnail: {e}")
@@ -68,7 +69,7 @@ try:
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CLASS_NAME, "v-list-item__title"))
     )
-    time.sleep(1)  # wait for all to render
+    time.sleep(sleepTime)  # wait for all to render
 except:
     print("⚠️ Timeout: Titles not found.")
     driver.quit()
