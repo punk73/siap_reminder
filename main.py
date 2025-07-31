@@ -16,13 +16,20 @@ import os
 load_dotenv()  # Load .env file
 
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+EXP_TOKEN = os.getenv("EXP_TOKEN")
 # how to set bearer token on .env file ??
-CHROMEDRIVER_PATH = "driver/chromedriver"
+# Separate chromedriver path and target URL between windows and macOS
+# check if macos
+if os.name == 'nt':  # Windows
+    CHROMEDRIVER_PATH = "driver/chromedriver.exe"
+else:  # macOS or Linux 
+    CHROMEDRIVER_PATH = "driver/chromedriver"
+    
 TARGET_URL = "https://siap.bkpsdm.karawangkab.go.id/gallery?view=full"
-
+print(BEARER_TOKEN)
 # === SETUP SELENIUM ===
 options = Options()
-options.add_argument("--headless")  # Enable if you want background mode
+# options.add_argument("--headless")  # Enable if you want background mode
 options.add_argument("--disable-gpu")
 options.add_argument("--no-sandbox")
 
@@ -35,7 +42,7 @@ time.sleep(1)
 
 driver.execute_script(f"""
 localStorage.setItem("auth._token.local", "Bearer {BEARER_TOKEN}");
-localStorage.setItem("auth._token_expiration.local", "1752137075536");
+localStorage.setItem("auth._token_expiration.local", "{EXP_TOKEN}");
 localStorage.setItem("auth.strategy", "local");
 """)
 print("✅ Token injected.")
