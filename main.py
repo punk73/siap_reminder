@@ -22,6 +22,10 @@ EXP_TOKEN = os.getenv("EXP_TOKEN")
 # check if macos
 if os.name == 'nt':  # Windows
     CHROMEDRIVER_PATH = "driver/chromedriver.exe"
+elif os.name == 'posix' and os.uname().sysname == 'Darwin':  # macOS
+    CHROMEDRIVER_PATH = "driver/chromedriver"
+elif os.name == 'posix' and os.uname().sysname == 'Linux':
+    CHROMEDRIVER_PATH = "driver/chromedriver_linux"  # Adjust this if you have a specific Linux version
 else:  # macOS or Linux 
     CHROMEDRIVER_PATH = "driver/chromedriver"
     
