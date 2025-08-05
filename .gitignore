@@ -5,3 +5,9 @@ belum_absen.json
 belum_absen.txt
 gallery_data.json
 gallery_data.txt
+chat_ids.json
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python

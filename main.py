@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 from datetime import datetime
-from bot import send_message, get_chat_ids_with_start
+from bot import send_message, get_chat_ids_with_start, get_chat_id
 from dotenv import load_dotenv
 import os
 

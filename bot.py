@@ -66,6 +66,15 @@ def get_chat_ids_with_start():
     # print(json.dumps(data, indent=2))  # Optional: see full response
 
     chat_ids = set()  # Use set to avoid duplicates
+    
+    saved_ids_path = "chat_ids.json"
+    if os.path.exists(saved_ids_path):
+        with open(saved_ids_path, "r", encoding="utf-8") as f:
+            try:
+                old_chat_ids = json.load(f)
+                chat_ids.update(old_chat_ids)
+            except json.JSONDecodeError:
+                print("⚠️ Failed to decode chat_ids.json. Starting fresh.")
 
     for item in data.get("result", []):
         message = item.get("message")
@@ -81,6 +90,11 @@ def get_chat_ids_with_start():
             print(f" - {cid}")
     else:
         print("⚠️ No /start messages found.")
+    
+    
+    # Save merged chat_ids back to file
+    with open(saved_ids_path, "w", encoding="utf-8") as f:
+        json.dump(list(chat_ids), f, indent=2)
 
     return list(chat_ids)
 
