@@ -1,71 +1,73 @@
-Total belum absen: 70, diantaranya (update : 2025-08-05 09:37:17):
+Total belum absen: 72, diantaranya (update : 2025-08-06 11:33:18):
 1. Dhea Ajeng Novita - NIP. -
-2. Ayu Desi Sapitri - NIP. -
-3. Yogie Wahyu Ginanjar - NIP. -
-4. Luthfi Nurfaqih - NIP. -
-5. Teguh Setiawan, S.Kom. - NIP. 199407302022031004
+2. Muhammad Zainur Ramdhan, S.Kom. - NIP. 199701082023211006
+3. Ade Kurnia S. Kom - NIP. 196802061990031004
+4. Ayu Desi Sapitri - NIP. -
+5. Romi Maryanto - NIP. 197805292012121001
 6. Rumona Pasaribu, A.Md.T. - NIP. 199809082022032006
-7. Muhammad Irfan Akbar, S.Kom. - NIP. 199509122023211013
-8. Iin Fatmawati, S.Kom. - NIP. 198211012012122001
-9. Ditya Putri Oktavitantri, A.Md. - NIP. 199310292022032007
-10. Yuchell Febri Alfa Saputra, S.Kom. - NIP. 198302092023211010
-11. Atik Kartika, A.Md. - NIP. 198603072023212039
-12. Fajar Destiawan Pamungkas, S.Si. - NIP. 198012142015031001
-13. Chandra Margubi Ashari S.Kom - NIP. -
-14. Wina Sabila, S.Kom. - NIP. 199311012023212042
-15. Atin Krisnanto S.Pd. - NIP. 197106262000031008
-16. Muhammad Gufron Nurhalim - NIP. -
-17. Ade Kurnia S. Kom - NIP. 196802061990031004
+7. Luthfi Nurfaqih - NIP. -
+8. Wina Sabila, S.Kom. - NIP. 199311012023212042
+9. Ulan Suci Sri Rizki - NIP. -
+10. Muhammad Gufron Nurhalim - NIP. -
+11. Rahmat Hidayat S.Kom - NIP. 198304252015031002
+12. Yogie Wahyu Ginanjar - NIP. -
+13. Muhamad Rifai, A.Md.Kom. - NIP. 199407262023211013
+14. Muhammad Irfan Akbar, S.Kom. - NIP. 199509122023211013
+15. Muhamad Amin, S.Sos. - NIP. 199410152023211009
+16. Chandra Margubi Ashari S.Kom - NIP. -
+17. Abdul Gopur Anggriawan - NIP. -
 18. Ida Nurhamidah S.I.Kom - NIP. 196807082007012008
-19. Zaenul Fadly, S.Kom. - NIP. 199911252023211001
-20. Muhammad Zainur Ramdhan, S.Kom. - NIP. 199701082023211006
-21. Arif Sarifudin - NIP. -
-22. Muhamad Amin, S.Sos. - NIP. 199410152023211009
-23. Ayi Sri Rahmawati S.Ag. - NIP. 197808072009012003
-24. Romi Maryanto - NIP. 197805292012121001
-25. Ardelia Cindy Wulandari, A.Md. - NIP. 199402212022032006
-26. Evi Herawati Solihat, S.E. - NIP. 198105072023212025
-27. Yudhi Septana SP - NIP. 197309092009011003
-28. Dhien Megawati Hady, A.Md. - NIP. -
-29. Aris Perdiyanto, S.Kom. - NIP. 198812202023211018
-30. Anna Safitri S.Sos, MM - NIP. 198607022009022002
-31. Budiman Abdurrohman S.Kom - NIP. 199309112019021004
-32. Yoggi Darwis, S.Sos. - NIP. 199305162023211011
-33. Muhamad Rifai, A.Md.Kom. - NIP. 199407262023211013
-34. Renanda Anggun Setiani, A.Md. - NIP. 199909042023212004
-35. Muhamad Zaenal Abidin - NIP. 200004282025211003
-36. Kristian Tri Handika, S.Kom. - NIP. 199108272019021003
-37. Ade Yunas Setiawan - NIP. -
-38. Ichsan Said Abdul Gani, A.Md. - NIP. 199210272023211011
-39. Fahmi Nur Huda, A.Md.Kom. - NIP. 199702022022031007
-40. Rudiyanto - NIP. 198505102014081001
+19. Renanda Anggun Setiani, A.Md. - NIP. 199909042023212004
+20. Fajar Destiawan Pamungkas, S.Si. - NIP. 198012142015031001
+21. Ditya Putri Oktavitantri, A.Md. - NIP. 199310292022032007
+22. Ayi Sri Rahmawati S.Ag. - NIP. 197808072009012003
+23. Arif Sarifudin - NIP. -
+24. Sri Listiyani S.Si, MM - NIP. 197601121999012001
+25. Evi Herawati Solihat, S.E. - NIP. 198105072023212025
+26. Zaenul Fadly, S.Kom. - NIP. 199911252023211001
+27. Ardelia Cindy Wulandari, A.Md. - NIP. 199402212022032006
+28. Teguh Setiawan, S.Kom. - NIP. 199407302022031004
+29. Dhien Megawati Hady, A.Md. - NIP. -
+30. Kristian Tri Handika, S.Kom. - NIP. 199108272019021003
+31. Ichsan Said Abdul Gani, A.Md. - NIP. 199210272023211011
+32. Poltak Rahat Marudut L SSTP, MM - NIP. 197607261996031003
+33. Iin Fatmawati, S.Kom. - NIP. 198211012012122001
+34. Hary Suteragangga - NIP. 198802202023211016
+35. Fahmi Nur Huda, A.Md.Kom. - NIP. 199702022022031007
+36. M.sahfian Rahman - NIP. -
+37. Yogi Luwiharto SE - NIP. 197910152006041008
+38. Anna Safitri S.Sos, MM - NIP. 198607022009022002
+39. Yoggi Darwis, S.Sos. - NIP. 199305162023211011
+40. Atik Kartika, A.Md. - NIP. 198603072023212039
 41. Adi Fauzi Kusmara, S.Kom. - NIP. 199306162019021002
-42. Anisa Jubaedah, S.Kom. - NIP. 199807042023212012
-43. Rahmat Hidayat S.Kom - NIP. 198304252015031002
-44. Giri Sanggatika Yunistra, S.Kom. - NIP. 199212212023211022
-45. Devi Kurnia - NIP. 198505302010012001
-46. Asep Yayat Ruchyat - NIP. 197907311998031003
-47. Ulan Suci Sri Rizki - NIP. -
-48. Yulius Syahban, S.E., M.M. - NIP. 198007042002121002
-49. Poltak Rahat Marudut L SSTP, MM - NIP. 197607261996031003
-50. Yogi Luwiharto SE - NIP. 197910152006041008
-51. Intan Pratiwi - NIP. 198603102010012001
-52. Muhamad Andri Fauzi, S.Sos. - NIP. 198909302023211021
-53. Fadni Dwi Septiani, A.Md. - NIP. 199709142023212024
-54. Dianti Ayu Utami, S.Si. - NIP. 199401142023212046
-55. Ade Irma Fatmawati, S.Kom. - NIP. 198602052023212031
-56. Muhamad Tian Gustian, A.Md.Kom. - NIP. 199905032023211001
-57. Hiba Ambara, S.Kom. - NIP. 199408312023211015
-58. Hary Suteragangga - NIP. 198802202023211016
-59. Faisal Cahya Pramudiya - NIP. -
-60. Fathia Pujiastuti, S.Kom. - NIP. 199108122023212051
-61. Deden Solihin - NIP. 198203202009011004
-62. Muhammad Hardadi, S.T. - NIP. 198401132023211011
-63. Hendra, S.I.Kom. - NIP. 198907192023211017
-64. Arif Setiawan M.Kom - NIP. 198510052010011011
-65. Opa Mustopa - NIP. -
-66. Wawan Setiawan - NIP. 198510132025211003
-67. Tasim - NIP. 197205011997031001
-68. Heru Arisyanto - NIP. -
-69. Rusmini - NIP. -
-70. Teguh Prisma Herliana, M.Kom. - NIP. 199410142023211019
+42. Yulius Syahban, S.E., M.M. - NIP. 198007042002121002
+43. Asep Yayat Ruchyat - NIP. 197907311998031003
+44. Atin Krisnanto S.Pd. - NIP. 197106262000031008
+45. Anisa Jubaedah, S.Kom. - NIP. 199807042023212012
+46. Muhamad Andri Fauzi, S.Sos. - NIP. 198909302023211021
+47. Muhammad Hardadi, S.T. - NIP. 198401132023211011
+48. Dianti Ayu Utami, S.Si. - NIP. 199401142023212046
+49. Deden Solihin - NIP. 198203202009011004
+50. Rudiyanto - NIP. 198505102014081001
+51. Aris Perdiyanto, S.Kom. - NIP. 198812202023211018
+52. Fathia Pujiastuti, S.Kom. - NIP. 199108122023212051
+53. Budiman Abdurrohman S.Kom - NIP. 199309112019021004
+54. Muhamad Tian Gustian, A.Md.Kom. - NIP. 199905032023211001
+55. Faisal Cahya Pramudiya - NIP. -
+56. Yudhi Septana SP - NIP. 197309092009011003
+57. Ade Irma Fatmawati, S.Kom. - NIP. 198602052023212031
+58. Fadni Dwi Septiani, A.Md. - NIP. 199709142023212024
+59. Devi Kurnia - NIP. 198505302010012001
+60. Muhamad Zaenal Abidin - NIP. 200004282025211003
+61. Ade Yunas Setiawan - NIP. -
+62. Yuchell Febri Alfa Saputra, S.Kom. - NIP. 198302092023211010
+63. Arif Setiawan M.Kom - NIP. 198510052010011011
+64. Opa Mustopa - NIP. -
+65. Heru Arisyanto - NIP. -
+66. Rusmini - NIP. -
+67. Hendra, S.I.Kom. - NIP. 198907192023211017
+68. Intan Pratiwi - NIP. 198603102010012001
+69. Hiba Ambara, S.Kom. - NIP. 199408312023211015
+70. Tasim - NIP. 197205011997031001
+71. Wawan Setiawan - NIP. 198510132025211003
+72. Teguh Prisma Herliana, M.Kom. - NIP. 199410142023211019
